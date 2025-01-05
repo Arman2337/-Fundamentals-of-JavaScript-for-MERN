@@ -1,0 +1,72 @@
+
+Operating System Information:
+-----------------------------
+Platform: win32
+Release: 10.0.19045
+Type: Windows_NT
+Architecture: x64
+CPU Count: 8
+Total Memory: 17019260928 bytes
+Free Memory: 8155832320 bytes
+Home Directory: C:\Users\DELL
+Uptime: 5388.609 seconds
+Load Average: 0, 0, 0
+Network Interfaces: {
+  "Wi-Fi": [
+    {
+      "address": "2409:40c1:501f:c2d3:72f1:e4db:fd73:beea",
+      "netmask": "ffff:ffff:ffff:ffff::",
+      "family": "IPv6",
+      "mac": "24:ee:9a:f2:45:6d",
+      "internal": false,
+      "cidr": "2409:40c1:501f:c2d3:72f1:e4db:fd73:beea/64",
+      "scopeid": 0
+    },
+    {
+      "address": "2409:40c1:501f:c2d3:cd64:b09a:303:109a",
+      "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+      "family": "IPv6",
+      "mac": "24:ee:9a:f2:45:6d",
+      "internal": false,
+      "cidr": "2409:40c1:501f:c2d3:cd64:b09a:303:109a/128",
+      "scopeid": 0
+    },
+    {
+      "address": "fe80::9893:b7b0:e75d:a034",
+      "netmask": "ffff:ffff:ffff:ffff::",
+      "family": "IPv6",
+      "mac": "24:ee:9a:f2:45:6d",
+      "internal": false,
+      "cidr": "fe80::9893:b7b0:e75d:a034/64",
+      "scopeid": 12
+    },
+    {
+      "address": "192.168.31.98",
+      "netmask": "255.255.255.0",
+      "family": "IPv4",
+      "mac": "24:ee:9a:f2:45:6d",
+      "internal": false,
+      "cidr": "192.168.31.98/24"
+    }
+  ],
+  "Loopback Pseudo-Interface 1": [
+    {
+      "address": "::1",
+      "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+      "family": "IPv6",
+      "mac": "00:00:00:00:00:00",
+      "internal": true,
+      "cidr": "::1/128",
+      "scopeid": 0
+    },
+    {
+      "address": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "family": "IPv4",
+      "mac": "00:00:00:00:00:00",
+      "internal": true,
+      "cidr": "127.0.0.1/8"
+    }
+  ]
+}
+Temporary Directory: C:\Users\DELL\AppData\Local\Temp
