@@ -1,13 +1,13 @@
-Problem 1: Online Appointment Scheduler
-Description
+###Problem 1: Online Appointment Scheduler
+##Description
 A dynamic scheduler to manage online appointments asynchronously. It includes functions to add appointments, display upcoming appointments, and send reminders.
 
-Files
+##Files
 src/appointmentScheduler/scheduler.js: Contains the implementation of the scheduler functions.
 
 src/appointmentScheduler/testScheduler.js: Contains test cases for the scheduler functions.
 
-Functions
+##Functions
 addAppointment(clientName, appointmentTime, serviceType):
 
 Adds a new appointment to the array.
@@ -22,7 +22,7 @@ sendReminder(appointment):
 
 Uses setTimeout() to log a reminder message when the appointment time approaches.
 
-Example Usage
+##Example Usage
 ```javascipt
 import { addAppointment, upcomingAppointments, sendReminder } from './src/appointmentScheduler/scheduler.js';
 
@@ -33,16 +33,16 @@ try {
     console.error(error.message);
 }
 ```
-Problem 2: Expense Tracker
-Description
+###Problem 2: Expense Tracker
+##Description
 A utility to track and analyze expenses using asynchronous programming and error handling. It includes functions to add expenses, calculate total expenses, filter expenses by date range, and fetch an expense report asynchronously.
 
-Files
+##Files
 src/expenseTracker/tracker.js: Contains the implementation of the expense tracker functions.
 
 src/expenseTracker/testTracker.js: Contains test cases for the expense tracker functions.
 
-Functions
+##Functions
 addExpense(description, amount, date):
 
 Adds a new expense to the array.
@@ -61,7 +61,7 @@ fetchExpenseReport():
 
 Simulates fetching an expense report asynchronously using a Promise.
 
-Example Usage
+##Example Usage
 
 ```javascipt
 import { addExpense, totalExpenses, filterByDateRange, fetchExpenseReport } from './src/expenseTracker/tracker.js';
@@ -75,16 +75,16 @@ try {
     console.error(error.message);
 }
 ```
-Problem 3: Study Planner
-Description
+###Problem 3: Study Planner
+##Description
 A study planner to manage and track study sessions for students. It includes functions to add study sessions, list today’s sessions, display a countdown for sessions, and fetch study materials asynchronously.
 
-Files
+##Files
 src/studyPlanner/planner.js: Contains the implementation of the study planner functions.
 
 src/studyPlanner/testPlanner.js: Contains test cases for the study planner functions.
 
-Functions
+##Functions
 addSession(topic, sessionTime, duration):
 
 Adds a new study session to the array.
@@ -103,7 +103,7 @@ fetchStudyMaterials(topic):
 
 Simulates fetching study materials asynchronously for a given topic using a Promise.
 
-Example Usage
+##Example Usage
 ```javascipt
 import { addSession, listTodaySessions, sessionCountdown, fetchStudyMaterials } from './src/studyPlanner/planner.js';
 
@@ -116,7 +116,7 @@ try {
 }
 ```
 
-Notes
+###Notes
 Ensure Node.js is installed on your system.
 
 All functions include input validation using try...catch.
