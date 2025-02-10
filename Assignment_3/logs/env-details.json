@@ -1,0 +1,119 @@
+{
+    "homeDirectory": "C:\\Users\\DELL",
+    "hostname": "Arman_officail",
+    "networkInterfaces": {
+        "Wi-Fi": [
+            {
+                "address": "2409:40c1:4039:4867:1a5e:feda:5d98:dc85",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "24:ee:9a:f2:45:6d",
+                "internal": false,
+                "cidr": "2409:40c1:4039:4867:1a5e:feda:5d98:dc85/64",
+                "scopeid": 0
+            },
+            {
+                "address": "2409:40c1:4039:4867:4530:b118:fc7e:67cb",
+                "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+                "family": "IPv6",
+                "mac": "24:ee:9a:f2:45:6d",
+                "internal": false,
+                "cidr": "2409:40c1:4039:4867:4530:b118:fc7e:67cb/128",
+                "scopeid": 0
+            },
+            {
+                "address": "fe80::9893:b7b0:e75d:a034",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "24:ee:9a:f2:45:6d",
+                "internal": false,
+                "cidr": "fe80::9893:b7b0:e75d:a034/64",
+                "scopeid": 12
+            },
+            {
+                "address": "192.168.200.80",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "24:ee:9a:f2:45:6d",
+                "internal": false,
+                "cidr": "192.168.200.80/24"
+            }
+        ],
+        "Loopback Pseudo-Interface 1": [
+            {
+                "address": "::1",
+                "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+                "family": "IPv6",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "::1/128",
+                "scopeid": 0
+            },
+            {
+                "address": "127.0.0.1",
+                "netmask": "255.0.0.0",
+                "family": "IPv4",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "127.0.0.1/8"
+            }
+        ]
+    },
+    "environmentVariables": {
+        "ALLUSERSPROFILE": "C:\\ProgramData",
+        "APPDATA": "C:\\Users\\DELL\\AppData\\Roaming",
+        "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+        "ChocolateyLastPathUpdate": "133374556138512322",
+        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_17504_WTYAKWNTSVRQGAPX",
+        "CommonProgramFiles": "C:\\Program Files\\Common Files",
+        "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+        "CommonProgramW6432": "C:\\Program Files\\Common Files",
+        "COMPUTERNAME": "ARMAN_OFFICAIL",
+        "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+        "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+        "HOMEDRIVE": "C:",
+        "HOMEPATH": "\\Users\\DELL",
+        "Java_Home": "C:\\Program Files\\Java\\jdk-20",
+        "LOCALAPPDATA": "C:\\Users\\DELL\\AppData\\Local",
+        "LOGONSERVER": "\\\\ARMAN_OFFICAIL",
+        "NUMBER_OF_PROCESSORS": "8",
+        "OneDrive": "C:\\Users\\DELL\\OneDrive",
+        "OneDriveConsumer": "C:\\Users\\DELL\\OneDrive",
+        "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+        "OS": "Windows_NT",
+        "Path": "C:\\Python311\\Scripts\\;C:\\Python311\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-20\\bin;C:\\MinGW\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\MongoDB\\Server\\7.0\\bin;C:\\Program Files\\mongosh-2.0.1-win32-x64\\mongosh-2.0.1-win32-x64\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\MinGW\\bin;C:\\Users\\DELL\\AppData\\Roaming\\npm",
+        "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL",
+        "PROCESSOR_ARCHITECTURE": "AMD64",
+        "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+        "PROCESSOR_LEVEL": "6",
+        "PROCESSOR_REVISION": "8e0c",
+        "ProgramData": "C:\\ProgramData",
+        "ProgramFiles": "C:\\Program Files",
+        "ProgramFiles(x86)": "C:\\Program Files (x86)",
+        "ProgramW6432": "C:\\Program Files",
+        "PSModulePath": "C:\\Users\\DELL\\OneDrive\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+        "PT8HOME": "D:\\Games\\Cisco Packet Tracer 8.2.2",
+        "PUBLIC": "C:\\Users\\Public",
+        "SESSIONNAME": "Console",
+        "SystemDrive": "C:",
+        "SystemRoot": "C:\\Windows",
+        "TEMP": "C:\\Users\\DELL\\AppData\\Local\\Temp",
+        "TMP": "C:\\Users\\DELL\\AppData\\Local\\Temp",
+        "USERDOMAIN": "ARMAN_OFFICAIL",
+        "USERDOMAIN_ROAMINGPROFILE": "ARMAN_OFFICAIL",
+        "USERNAME": "DELL",
+        "USERPROFILE": "C:\\Users\\DELL",
+        "windir": "C:\\Windows",
+        "ZES_ENABLE_SYSMAN": "1",
+        "TERM_PROGRAM": "vscode",
+        "TERM_PROGRAM_VERSION": "1.97.0",
+        "LANG": "en_US.UTF-8",
+        "COLORTERM": "truecolor",
+        "GIT_ASKPASS": "c:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+        "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+        "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\DELL\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+        "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-c4b5398f10-sock",
+        "VSCODE_INJECTION": "1"
+    }
+}
