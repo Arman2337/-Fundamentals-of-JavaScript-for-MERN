@@ -3,24 +3,24 @@
 A dynamic scheduler to manage online appointments asynchronously. It includes functions to add appointments, display upcoming appointments, and send reminders.
 
 ## Files
-src/appointmentScheduler/scheduler.js: Contains the implementation of the scheduler functions.
+- src/appointmentScheduler/scheduler.js: Contains the implementation of the scheduler functions.
 
-src/appointmentScheduler/testScheduler.js: Contains test cases for the scheduler functions.
+- src/appointmentScheduler/testScheduler.js: Contains test cases for the scheduler functions.
 
-## Functions
-addAppointment(clientName, appointmentTime, serviceType):
+### Functions
+## 1 addAppointment(clientName, appointmentTime, serviceType):
 
-Adds a new appointment to the array.
+* Adds a new appointment to the array.
 
-Validates appointmentTime as a valid Date object and clientName as a non-empty string.
+* Validates appointmentTime as a valid Date object and clientName as a non-empty string.
 
-upcomingAppointments():
+## 2 upcomingAppointments():
 
-Displays appointments scheduled for the next hour.
+* Displays appointments scheduled for the next hour.
 
-sendReminder(appointment):
+## 3 sendReminder(appointment):
 
-Uses setTimeout() to log a reminder message when the appointment time approaches.
+* Uses setTimeout() to log a reminder message when the appointment time approaches.
 
 ## Example Usage
 ```javascipt
@@ -38,28 +38,28 @@ try {
 A utility to track and analyze expenses using asynchronous programming and error handling. It includes functions to add expenses, calculate total expenses, filter expenses by date range, and fetch an expense report asynchronously.
 
 ## Files
-src/expenseTracker/tracker.js: Contains the implementation of the expense tracker functions.
+- src/expenseTracker/tracker.js: Contains the implementation of the expense tracker functions.
 
-src/expenseTracker/testTracker.js: Contains test cases for the expense tracker functions.
+- src/expenseTracker/testTracker.js: Contains test cases for the expense tracker functions.
 
-## Functions
-addExpense(description, amount, date):
+### Functions
+## 1 addExpense(description, amount, date):
 
-Adds a new expense to the array.
+* Adds a new expense to the array.
 
-Validates amount as a positive number and date as a valid Date object.
+* Validates amount as a positive number and date as a valid Date object.
 
-totalExpenses():
+## 2 totalExpenses():
 
-Calculates the total amount spent using reduce().
+* Calculates the total amount spent using reduce().
 
-filterByDateRange(startDate, endDate):
+## 3 filterByDateRange(startDate, endDate):
 
-Filters expenses within a specific date range.
+* Filters expenses within a specific date range.
 
-fetchExpenseReport():
+## 4 fetchExpenseReport():
 
-Simulates fetching an expense report asynchronously using a Promise.
+* Simulates fetching an expense report asynchronously using a Promise.
 
 ## Example Usage
 
@@ -80,28 +80,28 @@ try {
 A study planner to manage and track study sessions for students. It includes functions to add study sessions, list today’s sessions, display a countdown for sessions, and fetch study materials asynchronously.
 
 ## Files
-src/studyPlanner/planner.js: Contains the implementation of the study planner functions.
+- src/studyPlanner/planner.js: Contains the implementation of the study planner functions.
 
-src/studyPlanner/testPlanner.js: Contains test cases for the study planner functions.
+- src/studyPlanner/testPlanner.js: Contains test cases for the study planner functions.
 
-## Functions
-addSession(topic, sessionTime, duration):
+### Functions
+## 1 addSession(topic, sessionTime, duration):
 
-Adds a new study session to the array.
+* Adds a new study session to the array.
 
-Validates duration as a positive number and sessionTime as a valid Date object.
+* Validates duration as a positive number and sessionTime as a valid Date object.
 
-listTodaySessions():
+## 2 listTodaySessions():
 
-Displays all sessions scheduled for the current day.
+* Displays all sessions scheduled for the current day.
 
-sessionCountdown(session):
+## 3 sessionCountdown(session):
 
-Uses setTimeout() to log a countdown message when the session starts.
+* Uses setTimeout() to log a countdown message when the session starts.
 
-fetchStudyMaterials(topic):
+## 4 fetchStudyMaterials(topic):
 
-Simulates fetching study materials asynchronously for a given topic using a Promise.
+* Simulates fetching study materials asynchronously for a given topic using a Promise.
 
 ## Example Usage
 ```javascipt
@@ -117,6 +117,5 @@ try {
 ```
 
 ### Notes
-Ensure Node.js is installed on your system.
-
-All functions include input validation using try...catch.
+- Ensure Node.js is installed on your system.
+- All functions include input validation using try...catch.
