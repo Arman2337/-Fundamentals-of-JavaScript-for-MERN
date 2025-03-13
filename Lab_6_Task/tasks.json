@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Buy groceries",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "title": "Complete the Assignment",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "title": "Complete the Project",
+    "status": "completed"
+  }
+]
